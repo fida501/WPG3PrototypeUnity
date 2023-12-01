@@ -1,0 +1,621 @@
+fileFormatVersion: 2
+guid: 5c276e95e03895b4788181bc0520bb10
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Bolt Outer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3238
+      y: 4
+      width: 40
+      height: 70
+    spriteID: 12e4f4ec91ed1924882feb96057fbc8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3238, y: 4}
+    spritePosition: {x: 1380, y: 1720}
+  - name: Body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2560
+      height: 560
+    spriteID: 1d24f4a619b34724ead202cf7a17eb62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 1300}
+  - name: Bolt
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2950
+      y: 4
+      width: 280
+      height: 70
+    spriteID: 50f5673f7a002c644892be7f6d4e272a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2950, y: 4}
+    spritePosition: {x: 1140, y: 1730}
+  - name: Magazine 74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2572
+      y: 4
+      width: 370
+      height: 590
+    spriteID: 7441c7e83a38c8344bcd12112881753a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2572, y: 4}
+    spritePosition: {x: 1120, y: 1110}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Bizon
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 16a6560d147ba0f478d4eba6fbd6a322
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Shell
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9c237f2818fb6f84da7e9d56d6760a40
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 681b8951dd6e35f4395438b9c5a9c3df
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Magazine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 85939ee7e150fea4a957cf2f891c33ec
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bolt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c0884d4184eee5048a4fbe6492310b51
+    layerID: 44
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Gepard
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5e83ad32a3f83194ab152c387a61d3d0
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Shell
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 4890c84402b4c534a8088770ba0c406f
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 47032efd0f0532d45a0f6fefc9c392d3
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Magazine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 3c4113e7e2f6aec409b12c1c8a39eefe
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bolt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 6597c82330ae7314aa059d831d3dfaab
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Izmash
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f07c4810c1b3c22448bd8e2cfa244aec
+    layerID: 36
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Shell
+    spriteName: 
+    isGroup: 0
+    parentIndex: 10
+    spriteID: c620a8e298789bb4185eaa92548b7a2e
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 10
+    spriteID: ea41579eed34d0f489c1c85171bcf511
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Magazine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 15f54d6a7ef77c449a4f187afa21ca16
+    layerID: 33
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bolt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 383fd6a1fd046a141a3627301a77bce4
+    layerID: 32
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: AK12
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: de63eed3cd7096949b4b95285a644c32
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Shell
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: d2588fb1c6b8637468695b5b43f7a9a3
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Rear Sight
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 6ebd11aed425cc741bd481cb702503b6
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bolt Outer
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: a10014445e43e8d43a64f3bf2e02e422
+    layerID: 27
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 87794652a923bd84fbed8b6f9b464d31
+    layerID: 26
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bolt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 4c509b3991bfa684c9217193a48d049a
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Magazine 74
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: ca5ad08e09e4aef42ad19e22d31563fc
+    layerID: 24
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: AK
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 2e899b7cc095f6f4dafaa73abc47f88f
+    layerID: 22
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shell
+    spriteName: 
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 38161cd99518e1c49b5bcb8097b525b8
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Bolt Outer
+    spriteName: Bolt Outer
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 12e4f4ec91ed1924882feb96057fbc8b
+    layerID: 20
+    mosaicPosition: {x: 3238, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Body
+    spriteName: Body
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 1d24f4a619b34724ead202cf7a17eb62
+    layerID: 19
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bolt
+    spriteName: Bolt
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 50f5673f7a002c644892be7f6d4e272a
+    layerID: 18
+    mosaicPosition: {x: 2950, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Magazine 74
+    spriteName: Magazine 74
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 7441c7e83a38c8344bcd12112881753a
+    layerID: 17
+    mosaicPosition: {x: 2572, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: P22X
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 940569e18d6432c4e9d4c35a432ce29e
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Lower Body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 0ac3e558f62222c45a7de88b931049bf
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Slide
+    spriteName: 
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 85712dbb6826a814c9386da22792ca42
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Internals
+    spriteName: 
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 4f7affa556c50d840a7e97eebea8daf0
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: C8
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 814c52fa92428204e9e2003e81544946
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Rear Sight
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: bb1eadb3eab90c548a27a258e3a7e0cd
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: b1d5ded397d38bc40ba98d5fc34db513
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bolt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: a4588c97cf6c442459c75c99a08166b3
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Kokangan
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 8aa19cbe288c89645a97b3568821d724
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Mag Short
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 0ffc701244e424b42b8f7d449136b935
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Mag 30
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 245585c3ff211e647b716d3b88d9dbc3
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BG
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97eaf1370bab1a94daa55ee4a7a18a20
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

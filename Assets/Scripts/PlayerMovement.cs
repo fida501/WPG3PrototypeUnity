@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     //public Transform orientation;
 
+    public Animator playerAnimator;
+
     private float horizontalInput;
     private float verticalInput;
 
@@ -16,10 +19,12 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed;
 
+    public bool isJumping;
+    public float jumpForce;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -29,7 +34,40 @@ public class PlayerMovement : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
 
         moveDirection = new Vector3(horizontalInput, 0, 0);
+        playerAnimator.SetFloat("PlayerSpeed", Mathf.Abs(horizontalInput));
+        // if (horizontalInput < 0)
+        // {
+        //     // Rotate the object 180 degrees around the Y axis
+        //     transform.rotation = Quaternion.Euler(0, 180, 0);
+        //     moveDirection = new Vector3(horizontalInput * -1, 0, 0);
+        // }
+        // else
+        // {
+        //     // Reset the rotation to its original state
+        //     transform.rotation = Quaternion.Euler(0, 0, 0);
+        // }
+
         moveDirection.Normalize();
         transform.Translate(moveDirection * speed * Time.deltaTime);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+            StartCoroutine(DelayJumpFunction());
+        }
+        IEnumerator DelayJumpFunction()
+        {
+            yield return new WaitForSeconds(2);
+            isJumping = false;
+        }
+        
+    }
+
+    public void Jump()
+    {
+        if (!isJumping)
+        {
+            isJumping = true;
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
     }
 }
