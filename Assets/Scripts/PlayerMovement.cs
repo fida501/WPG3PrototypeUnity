@@ -27,7 +27,6 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -49,17 +48,6 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection.Normalize();
         transform.Translate(moveDirection * speed * Time.deltaTime);
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Jump();
-            StartCoroutine(DelayJumpFunction());
-        }
-        IEnumerator DelayJumpFunction()
-        {
-            yield return new WaitForSeconds(2);
-            isJumping = false;
-        }
-        
     }
 
     public void Jump()
@@ -68,6 +56,14 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
         }
     }
 }

@@ -17,15 +17,21 @@ public class Weapon : MonoBehaviour
     // Transform weaponTransform; // Reference to the weapon's transform.
     // private Quaternion targetRotation;
     // public GameObject weapon;
-    
-    [Header("Bullet")]
-    public GameObject bulletPrefab;
+
+    [Header("Bullet")] public GameObject bulletPrefab;
     public Transform bulletSpawnPoint;
     public float bulletSpeed = -10f;
     public float bulletLife = 2.5f;
     public float fireRate = 1f;
-    
+    public float bulletDamage = 50f;
+
     private float nextFireTime = 0.0f;
+    
+    [Header("SFX")]
+    // Reference to the AudioSource component for shooting SFX
+    public AudioSource shootingAudioSource;
+    public AudioClip shootingSFX;
+
 
     private void Awake()
     {
@@ -38,18 +44,22 @@ public class Weapon : MonoBehaviour
     {
         return Time.time > nextFireTime;
     }
-    
-    public void Shoot()
+
+    public void Shoot(int direction)
     {
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
         Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
 
 // Set the velocity along the player's forward vector (z-axis)
-        bulletRb.velocity = bullet.transform.right * bulletSpeed;
-
+        bulletRb.velocity = bullet.transform.right * bulletSpeed * direction;
 // Destroy the bullet after a certain duration (bulletLifetime)
         Destroy(bullet, bulletLife);
         // Set the cooldown for the next shot
         nextFireTime = Time.time + 1f / fireRate;
+        
+        if (shootingAudioSource != null && shootingSFX != null)
+        {
+            shootingAudioSource.PlayOneShot(shootingSFX);
+        }
     }
 }
