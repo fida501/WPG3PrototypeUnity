@@ -22,7 +22,7 @@ public class Weapon : MonoBehaviour
     public Transform bulletSpawnPoint;
     public float bulletSpeed = -10f;
     public float bulletLife = 2.5f;
-    public float fireRate = 1f;
+    public float fireRate = 650f;
     public float bulletDamage = 50f;
 
     private float nextFireTime = 0.0f;
@@ -55,7 +55,7 @@ public class Weapon : MonoBehaviour
 // Destroy the bullet after a certain duration (bulletLifetime)
         Destroy(bullet, bulletLife);
         // Set the cooldown for the next shot
-        nextFireTime = Time.time + 1f / fireRate;
+        nextFireTime = Time.time + 0.1f * fireRate;
         
         if (shootingAudioSource != null && shootingSFX != null)
         {
