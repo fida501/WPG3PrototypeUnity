@@ -23,6 +23,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             movement.Jump();
+        }   
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            weapon.Reload();
         }
     }
 }

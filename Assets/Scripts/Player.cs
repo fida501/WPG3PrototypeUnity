@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     //Player Class, it has health
-    [SerializeField] private int health = 100;
+    [SerializeField] private float health = 100f;
     public Slider slider;
     public PlayManager playManager;
 
@@ -27,18 +27,18 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
-        health -= damage;
+        health -= damage;   
     }
 
-    public void setMaxHealth(int health)
+    public void setMaxHealth(float health)
     {
         slider.maxValue = health;
         slider.value = health;
     }
 
-    public void setHealth(int health)
+    public void setHealth(float health)
     {
         slider.value = health;
     }
