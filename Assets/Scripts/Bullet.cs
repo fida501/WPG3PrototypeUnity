@@ -11,7 +11,9 @@ public class Bullet : MonoBehaviour
     public Weapon weapon;
     public float traveledDistance;
     private Vector3 bulletStartPosition;
-    [SerializeField] private bool isBulletFromPlayer ;
+
+    [SerializeField] private bool isBulletFromPlayer;
+
     //
     // private void Start()
     // {
@@ -24,8 +26,8 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
-        traveledDistance = Vector3.Distance(bulletStartPosition, transform.position); 
-        
+        traveledDistance = Vector3.Distance(bulletStartPosition, transform.position);
+
         if (traveledDistance >= bulletTravelDistance)
         {
             Destroy(gameObject);
@@ -43,26 +45,36 @@ public class Bullet : MonoBehaviour
             {
                 other.gameObject.GetComponent<Enemy>().TakeDamage(bulletDamage);
             }
+
+            if (other.gameObject.GetComponent<NewEnemy>() != null)
+            {
+                other.gameObject.GetComponent<NewEnemy>().TakeDamage(bulletDamage);
+            }
+
+            if (other.gameObject.GetComponent<EnemyBase>())
+            {
+                other.gameObject.GetComponent<EnemyBase>().TakeDamage(bulletDamage);
+            }
         }
         else
         {
             Destroy(gameObject);
         }
-        
+
         if (other.gameObject.CompareTag("Player"))
         {
-            if (isBulletFromPlayer)
-            {
-                return;
-            }
-            else
+            if (!isBulletFromPlayer)
             {
                 // Destroy(other.gameObject);
                 Destroy(gameObject);
-                //Check the other gameObject's tag, if it has Enemy Script, then call TakeDamage()
+                //Check the other gameObject's tag, if it has Enemy Script, then call TakeDamage()  
                 if (other.gameObject.GetComponent<Player>() != null)
                 {
                     other.gameObject.GetComponent<Player>().TakeDamage(bulletDamage);
+                }
+                else
+                {
+                    return;
                 }
             }
         }
@@ -76,6 +88,7 @@ public class Bullet : MonoBehaviour
     {
         bulletDamage = bulletNewDamage;
     }
+
     public void setBulletTravelDistance(float newBulletTravelDistance)
     {
         bulletTravelDistance = newBulletTravelDistance;

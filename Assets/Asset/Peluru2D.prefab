@@ -100,7 +100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 50
+  bulletTravelDistance: 5
   weapon: {fileID: 0}
+  traveledDistance: 0
+  isBulletFromPlayer: 0
 --- !u!65 &-8813277990216937274
 BoxCollider:
   m_ObjectHideFlags: 0
