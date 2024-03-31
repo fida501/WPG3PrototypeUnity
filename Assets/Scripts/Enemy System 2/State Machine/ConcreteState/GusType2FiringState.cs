@@ -16,7 +16,7 @@ public class GusType2FiringState : EnemyBaseState
         if (enemy.weapon.weaponCurrentAmmo == 0)
         {
             enemy.weapon.setWeaponAmmo(30);
-        }
+        } 
     }
 
     public override void FrameUpdate()

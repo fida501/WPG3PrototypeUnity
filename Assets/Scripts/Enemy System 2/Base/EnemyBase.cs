@@ -31,7 +31,6 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
         Type2IdleState = new GusType2IdleState(this, enemyStateMachine2);
         Type2FiringState = new GusType2FiringState(this, enemyStateMachine2);
         Type3RunawayState = new GusType3RunawayState(this, enemyStateMachine2);
-        
     }
 
     private void Start()
@@ -89,3 +88,4 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
         IsChased = isChased;
     }
 }
+
