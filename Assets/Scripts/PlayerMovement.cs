@@ -29,6 +29,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(DialogueManager.GetInstance().IsDialogueIsPlaying)
+        {
+            return;
+        }
+        
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 

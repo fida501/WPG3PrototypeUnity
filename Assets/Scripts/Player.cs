@@ -10,10 +10,12 @@ public class Player : MonoBehaviour
     [SerializeField] private float health = 100f;
     public Slider slider;
     public PlayManager playManager;
+    private Animator _animator;
 
 
     private void Start()
     {
+        _animator = GetComponent<Animator>();
         setMaxHealth(health);
     }
 
@@ -42,4 +44,21 @@ public class Player : MonoBehaviour
     {
         slider.value = health;
     }
+
+    private void OnEnable()
+    {
+//        DialogueManager.GetInstance().OnDialogueTriggere += HandleDialogue;
+    }
+
+    private void OnDisable()
+    {
+        DialogueManager.GetInstance().OnDialogueTriggere -= HandleDialogue;
+    }
+
+    private void HandleDialogue(TextAsset dialogueFile)
+    {
+        _animator.SetFloat("PlayerSpeed", 0);
+        DialogueManager.GetInstance().StartDialogue(dialogueFile);
+    }
+    
 }

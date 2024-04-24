@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: edc4c5db0620a9a4fb592a6d4f1f17dd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Shoulder kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 810
+      y: 1728
+      width: 288
+      height: 248
+    spriteID: b4b27d00c98f24c4e87520620f126e54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 810, y: 1728}
+    spritePosition: {x: 844, y: 1720}
+  - name: fore arm kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1513
+      width: 481
+      height: 382
+    spriteID: 1a10cf3c2474f094f8f1cfb0b7bbd348
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1513}
+    spritePosition: {x: 208, y: 1476}
+  - name: Bicep Tricep kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 1061
+      width: 369
+      height: 221
+    spriteID: 4f3d9219b3e4a4042bccf6c61ea4ea7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 1061}
+    spritePosition: {x: 601, y: 1701}
+  - name: Rambut
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 4
+      width: 570
+      height: 400
+    spriteID: 24b07745db534424e95132b0fd96be40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 4}
+    spritePosition: {x: 990, y: 2110}
+  - name: Kepala
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 712
+      width: 400
+      height: 450
+    spriteID: e14f5b39d177b7e4ebf3973833534e57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 562, y: 712}
+    spritePosition: {x: 1070, y: 2010}
+  - name: Armor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 4
+      width: 560
+      height: 700
+    spriteID: 2aa053460c5ed6847a3aaf41a5b7661a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 562, y: 4}
+    spritePosition: {x: 940, y: 1320}
+  - name: 2. badan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 550
+      height: 830
+    spriteID: 7edf2c2b6b6c0ec4d96996bbe1bf0263
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 940, y: 1350}
+  - name: Shoulders
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 1693
+      width: 171
+      height: 227
+    spriteID: 7920ffece6e5c9c468ec9264bb159a09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 1693}
+    spritePosition: {x: 1403, y: 1730}
+  - name: Fore arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 770
+      width: 357
+      height: 283
+    spriteID: 89e7d73805c206e43a85024c9b81328d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 770}
+    spritePosition: {x: 1660, y: 1533}
+  - name: Bicep Tricep
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1708
+      y: 4
+      width: 311
+      height: 229
+    spriteID: 569969c0e0e40ee4491306ee8ffde630
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1708, y: 4}
+    spritePosition: {x: 1453, y: 1674}
+  - name: Hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 1818
+      width: 209
+      height: 188
+    spriteID: 96dde739e9f784e49bf5c27711ca148a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 562, y: 1818}
+    spritePosition: {x: 1934, y: 1459}
+  - name: Paha kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 842
+      width: 309
+      height: 663
+    spriteID: 8908d991d90bde84f9d7484588b43366
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 842}
+    spritePosition: {x: 961, y: 618}
+  - name: Driji kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 1290
+      width: 335
+      height: 207
+    spriteID: 131a2c05e8ad00b46bf7898209a7c77c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 1290}
+    spritePosition: {x: 893, y: 60}
+  - name: Sayap kanan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 321
+      y: 842
+      width: 223
+      height: 553
+    spriteID: 94d03971ca6be284ba19649e0965578f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 321, y: 842}
+    spritePosition: {x: 904, y: 185}
+  - name: 5. Pinggul
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 412
+      width: 370
+      height: 350
+    spriteID: 32530858558ae7741aa5213f6c196e31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 412}
+    spritePosition: {x: 1050, y: 1100}
+  - name: Pupu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 1170
+      width: 240
+      height: 640
+    spriteID: 89f18be85b8545f45876ea92d5528674
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 562, y: 1170}
+    spritePosition: {x: 1250, y: 640}
+  - name: Driji
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 1505
+      width: 330
+      height: 180
+    spriteID: 2bb7d038e3c2bcd4687d8dc062bc635a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1130, y: 1505}
+    spritePosition: {x: 1310, y: 70}
+  - name: Sayap
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 810
+      y: 1170
+      width: 180
+      height: 550
+    spriteID: 93b1d534194814b4488120a81b8c7094
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 810, y: 1170}
+    spritePosition: {x: 1300, y: 200}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Shoulder kanan
+    spriteName: Shoulder kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b4b27d00c98f24c4e87520620f126e54
+    layerID: 60
+    mosaicPosition: {x: 810, y: 1728}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fore arm kanan
+    spriteName: fore arm kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1a10cf3c2474f094f8f1cfb0b7bbd348
+    layerID: 59
+    mosaicPosition: {x: 4, y: 1513}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bicep Tricep kanan
+    spriteName: Bicep Tricep kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4f3d9219b3e4a4042bccf6c61ea4ea7e
+    layerID: 58
+    mosaicPosition: {x: 1130, y: 1061}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Rambut
+    spriteName: Rambut
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 24b07745db534424e95132b0fd96be40
+    layerID: 56
+    mosaicPosition: {x: 1130, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Kepala
+    spriteName: Kepala
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e14f5b39d177b7e4ebf3973833534e57
+    layerID: 55
+    mosaicPosition: {x: 562, y: 712}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Armor
+    spriteName: Armor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2aa053460c5ed6847a3aaf41a5b7661a
+    layerID: 54
+    mosaicPosition: {x: 562, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Armor
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 04b9368b86e17a54c9649cf7dbf72ddb
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: 2. badan
+    spriteName: 2. badan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7edf2c2b6b6c0ec4d96996bbe1bf0263
+    layerID: 52
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shoulders
+    spriteName: Shoulders
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7920ffece6e5c9c468ec9264bb159a09
+    layerID: 50
+    mosaicPosition: {x: 1130, y: 1693}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fore arm
+    spriteName: Fore arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89e7d73805c206e43a85024c9b81328d
+    layerID: 49
+    mosaicPosition: {x: 1130, y: 770}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bicep Tricep
+    spriteName: Bicep Tricep
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 569969c0e0e40ee4491306ee8ffde630
+    layerID: 48
+    mosaicPosition: {x: 1708, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Hand
+    spriteName: Hand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 96dde739e9f784e49bf5c27711ca148a
+    layerID: 47
+    mosaicPosition: {x: 562, y: 1818}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Paha kanan
+    spriteName: Paha kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8908d991d90bde84f9d7484588b43366
+    layerID: 44
+    mosaicPosition: {x: 4, y: 842}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Driji kanan
+    spriteName: Driji kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 131a2c05e8ad00b46bf7898209a7c77c
+    layerID: 43
+    mosaicPosition: {x: 1130, y: 1290}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sayap kanan
+    spriteName: Sayap kanan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 94d03971ca6be284ba19649e0965578f
+    layerID: 42
+    mosaicPosition: {x: 321, y: 842}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 5. Pinggul
+    spriteName: 5. Pinggul
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 32530858558ae7741aa5213f6c196e31
+    layerID: 40
+    mosaicPosition: {x: 1130, y: 412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pupu
+    spriteName: Pupu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89f18be85b8545f45876ea92d5528674
+    layerID: 38
+    mosaicPosition: {x: 562, y: 1170}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Driji
+    spriteName: Driji
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2bb7d038e3c2bcd4687d8dc062bc635a
+    layerID: 37
+    mosaicPosition: {x: 1130, y: 1505}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sayap
+    spriteName: Sayap
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 93b1d534194814b4488120a81b8c7094
+    layerID: 36
+    mosaicPosition: {x: 810, y: 1170}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
