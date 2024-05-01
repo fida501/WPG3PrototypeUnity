@@ -1777,8 +1777,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDetector: {fileID: 1342551871}
   player: {fileID: 13183520}
+  enemyType: 0
+  currentPositionX: 0
   weapon: {fileID: 314702537}
-  playManager: {fileID: 0}
+  runAwayDistance: 10
+  runAwaySpeed: 5
 --- !u!1001 &341783712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1898,8 +1901,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDetector: {fileID: 1342551871}
   player: {fileID: 1129146267}
+  enemyType: 0
+  currentPositionX: 0
   weapon: {fileID: 341783715}
-  playManager: {fileID: 0}
+  runAwayDistance: 10
+  runAwaySpeed: 5
 --- !u!1001 &401708060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2811,6 +2817,7 @@ MonoBehaviour:
   musicTracks:
   - {fileID: 8300000, guid: 9df62c78cc4f05a45b24f1e3ef0decc6, type: 3}
   - {fileID: 8300000, guid: 4f86872b94220d24e8ca00ef13e0059a, type: 3}
+  dialogueTrigger: {fileID: 0}
 --- !u!4 &600393942
 Transform:
   m_ObjectHideFlags: 0
@@ -3493,6 +3500,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712353288}
   m_CullTransparentMesh: 1
+--- !u!1 &730112811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 730112812}
+  - component: {fileID: 730112813}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &730112812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730112811}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 979551178}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &730112813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730112811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341ca30a007faf14784eb22acbb8e426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
 --- !u!1 &739951270
 GameObject:
   m_ObjectHideFlags: 0
@@ -5509,6 +5562,7 @@ Transform:
   m_Children:
   - {fileID: 600393942}
   - {fileID: 230303147}
+  - {fileID: 730112812}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990419276
@@ -5819,6 +5873,13 @@ MonoBehaviour:
   bulletLife: 2.5
   fireRate: 1
   bulletDamage: 50
+  bulletDistance: 5
+  bullet: {fileID: 0}
+  isPlayerHoldingWeapon: 0
+  weaponAmmo: 0
+  weaponCurrentAmmo: 0
+  weaponReloadTime: 2
+  nextFireTime: 0
   shootingAudioSource: {fileID: 1709596740}
   shootingSFX: {fileID: 8300000, guid: f5500a1591cdcf1479ae3c286c6b885c, type: 3}
 --- !u!4 &1071075410 stripped
@@ -6182,6 +6243,13 @@ MonoBehaviour:
   bulletLife: 4
   fireRate: 1
   bulletDamage: 10
+  bulletDistance: 5
+  bullet: {fileID: 0}
+  isPlayerHoldingWeapon: 0
+  weaponAmmo: 0
+  weaponCurrentAmmo: 0
+  weaponReloadTime: 2
+  nextFireTime: 0
   shootingAudioSource: {fileID: 0}
   shootingSFX: {fileID: 0}
 --- !u!1 &1129146267
@@ -6522,8 +6590,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDetector: {fileID: 1342551871}
   player: {fileID: 1317570956}
+  enemyType: 0
+  currentPositionX: 0
   weapon: {fileID: 1171541159}
-  playManager: {fileID: 0}
+  runAwayDistance: 10
+  runAwaySpeed: 5
 --- !u!1 &1174669824
 GameObject:
   m_ObjectHideFlags: 0
@@ -7427,7 +7498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac23ad03e67ea14ab71b1abbbb94ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualCue: {fileID: 842643477}
   inkJSON: {fileID: 4900000, guid: 92b1fccf1f6ed2344b7cd2d26ff337ca, type: 3}
 --- !u!1001 &1342551870
 PrefabInstance:
@@ -11394,8 +11464,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDetector: {fileID: 1342551871}
   player: {fileID: 1889205398}
+  enemyType: 0
+  currentPositionX: 0
   weapon: {fileID: 1657176254}
-  playManager: {fileID: 0}
+  runAwayDistance: 10
+  runAwaySpeed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

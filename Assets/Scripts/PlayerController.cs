@@ -15,7 +15,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && weapon.CanShoot())
+        if (DialogueManager.GetInstance().IsDialogueIsPlaying)
+        {
+            return;
+        }
+        
+        if (Input.GetMouseButton(0) && weapon.CanShoot())
         {
             weapon.Shoot(1);
         }
@@ -23,7 +28,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             movement.Jump();
-        }   
+        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {

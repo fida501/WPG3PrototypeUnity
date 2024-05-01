@@ -22,15 +22,19 @@ public class Weapon : MonoBehaviour
     public Transform bulletSpawnPoint;
     public float bulletSpeed = -10f;
     public float bulletLife = 2.5f;
-    public float fireRate = 650f;
+    public float weaponRPM;
+    public float timePerShot;
     public float bulletDamage = 50f;
     public float bulletDistance = 5f;
     public GameObject bullet;
     public bool isPlayerHoldingWeapon;
     [Header("Ammo")] public int weaponAmmo;
     public int weaponCurrentAmmo;
+
     public float weaponReloadTime = 2f;
-    private float nextFireTime = 0.0f;
+
+    //private float nextFireTime = 0.0f;
+    [SerializeField] private float nextFireTime = 0.0f;
 
     [Header("SFX")]
     // Reference to the AudioSource component for shooting SFX
@@ -48,6 +52,7 @@ public class Weapon : MonoBehaviour
 
     private void Start()
     {
+        timePerShot = 60 / weaponRPM;
         // Transform parent = transform.parent;
         // while (parent != null)
         // {
@@ -94,7 +99,7 @@ public class Weapon : MonoBehaviour
             // Destroy the bullet after a certain duration (bulletLifetime)
             //        Destroy(bullet, bulletLife);
             // Set the cooldown for the next shot
-            nextFireTime = Time.time + 0.1f * fireRate;
+            nextFireTime = Time.time + timePerShot;
 
             if (shootingAudioSource != null && shootingSFX != null)
             {

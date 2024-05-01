@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        
+
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
@@ -53,6 +53,11 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection.Normalize();
         transform.Translate(moveDirection * speed * Time.deltaTime);
+    }
+
+    private void FixedUpdate()
+    {
+
     }
 
     public void Jump()

@@ -22,7 +22,6 @@
             {
                 Debug.LogWarning("Found more than one instance of DialogueManager in the scene");
             }
-
             instance = this;
         }
 

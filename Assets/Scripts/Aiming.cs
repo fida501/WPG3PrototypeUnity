@@ -17,6 +17,10 @@ public class Aiming : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (DialogueManager.GetInstance().IsDialogueIsPlaying)
+        {
+            return;
+        }
         var mousePos = Input.mousePosition;
 
         // Use raycasting to get the position on the plane at zDistance from the camera.
