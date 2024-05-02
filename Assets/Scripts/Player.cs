@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public Slider slider;
     public PlayManager playManager;
     private Animator _animator;
+    [SerializeField] private Weapon weapon;
 
 
     private void Start()
@@ -31,7 +32,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        health -= damage;   
+        health -= damage;
     }
 
     public void setMaxHealth(float health)
@@ -60,5 +61,13 @@ public class Player : MonoBehaviour
         _animator.SetFloat("PlayerSpeed", 0);
         DialogueManager.GetInstance().StartDialogue(dialogueFile);
     }
-    
+
+    public Weapon GetWeapon()
+    {
+        return weapon;
+    }
+    public void SetWeapon(Weapon weapon)
+    {
+        this.weapon = weapon;
+    }
 }
