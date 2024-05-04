@@ -25,12 +25,5 @@ public class UIPlayManager : MonoBehaviour
     {
         weaponCurrentAmmo = weapon.weaponCurrentAmmo;
         bulletRemainingTMP.text = weaponCurrentAmmo + "/" + weaponAvailableAmmo;
-        if (DialogueManager.GetInstance().IsDialogueIsPlaying)
-        {
-            playHUD.SetActive(false);
-        } else
-        {
-            playHUD.SetActive(true);
-        }   
     }
 }

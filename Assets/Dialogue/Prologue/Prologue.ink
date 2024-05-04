@@ -1,4 +1,4 @@
-<i>Berdiri dari kondisi terbaring</i> #speaker:???
+<i>Aku berdiri dari kondisi terbaring</i> #speaker:???
 
 Ukh… Aku… dimana ? #speaker:??? 
 
@@ -14,9 +14,9 @@ June 26th, 2034 #speaker:
 
 <i>Suara getaran mesin baling-baling dari dalam helikopter</i> #speaker:
 
-Helikopter model UH-1Y bergerak dengan cepat di atas samudra atlantik utara #speaker:
+... #background:cutscene2
 
-30 Menit sebelum sampai ke lokasi pendaratan !#speaker:Pilot 
+30 Menit sebelum sampai ke lokasi pendaratan !#speaker:Pilot #background:cutscene1
 
 Sesudahnya kalian sampai di sana, cari tahu apa yang terjadi, padamkan radiasi chirium dan segera pergi dari sana. #speaker:Markas Besar
 
@@ -55,7 +55,7 @@ Sial, bagaimana bisa #speaker:Pilot
 <i>Suara alarm helicopter lebih kencang menandakan misil datang</i> #speaker:
 
 
-Misil ! Misil ! Luncurkan suar ! #speaker:Co-Pilot
+Misil ! Misil ! Luncurkan suar ! #speaker:Co-Pilot #background:cutscene3
 
 Roger, Meluncurkan suar ! #speaker:Pilot
 
@@ -73,7 +73,7 @@ Misil datang ! #speaker:Co-Pilot
 
 <i>Berpegangan !</i> #speaker:Pilot
 
-<i>Misil meledak mengenai rotor</i> #speaker:
+<i>Misil meledak mengenai rotor</i> #speaker: #background:cutscene4
 
 <i>Helicopter mulai berputar searah jarum jam secara signifikan</i>#speaker:
 
@@ -88,5 +88,5 @@ Franz : Sial, sial, sial ! #speaker:Franz
 <i>Pegangan Franz semakin melemah karena putaran dari helicopter</i> #speaker:
 Franz : Wooooaaaahh ! #speaker:Franz
 
-<i>Franz terjatuh ke danau Ijseel</i> #speaker:
+<i>Franz terjatuh ke perairan </i> #speaker: #background:cutscene5
 

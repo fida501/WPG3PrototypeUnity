@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CutsceneManager : MonoBehaviour
 {
@@ -15,5 +16,13 @@ public class CutsceneManager : MonoBehaviour
         {
             dialogueTrigger.DialogueTriggered();
         }   
+    }
+
+    private void Update()
+    {
+        if (DialogueManager.GetInstance().IsDialogueIsPlaying == false)
+        {
+            SceneManager.LoadScene("1-1");
+        }
     }
 }

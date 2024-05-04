@@ -10,6 +10,8 @@ public class PlayManager : MonoBehaviour
     public GameObject loseUI;
     public GameObject winUI;
     public string currentCondition;
+    [SerializeField] private GameObject UIHUD;
+
 
     [Header("Muzika")] public AudioSource audioSource;
     private int currentTrackIndex;
@@ -50,12 +52,14 @@ public class PlayManager : MonoBehaviour
     public IEnumerator StartLoseUI()
     {
         yield return new WaitForSeconds(2f);
+        UIHUD.SetActive(false);
         loseUI.SetActive(true);
     }
 
     public IEnumerator StartWinUI()
     {
         yield return new WaitForSeconds(2f);
+        UIHUD.SetActive(false);
         winUI.SetActive(true);
     }
 

@@ -20,6 +20,15 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private float typingSpeed = 1f;
     [SerializeField] private bool canContinueToNextLine = false;
     [SerializeField] private GameObject continueIcon;
+    [SerializeField] private GameObject UiHUD;
+
+    [SerializeField] private GameObject cutscene1;
+    [SerializeField] private GameObject cutscene2;
+    [SerializeField] private GameObject cutscene3;
+    [SerializeField] private GameObject cutscene4;
+    [SerializeField] private GameObject cutscene5;
+    
+    
 
 
     private Coroutine displayLineCoroutine;
@@ -27,6 +36,8 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Tag Manager")] private const string SPEAKER_TAG = "speaker";
     [SerializeField] private TextMeshProUGUI speakerNameText;
+    private const string BG_TAG = "background";
+    
 
 
     private void Awake()
@@ -71,11 +82,12 @@ public class DialogueManager : MonoBehaviour
         ContinueDialogue();
     }
 
-    private void ExitDialogueMode()
+    public void ExitDialogueMode()
     {
         IsDialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+        UiHUD.SetActive(true);
     }
 
     private void ContinueDialogue()
@@ -116,6 +128,34 @@ public class DialogueManager : MonoBehaviour
                 case SPEAKER_TAG:
                     speakerNameText.text = tagValue;
                     break;
+                case BG_TAG:
+                    if (tagValue == "cutscene1")
+                    {
+                        Debug.Log("tag value are " + tagValue);
+                        cutscene1.SetActive(true);
+                        cutscene2.SetActive(false);
+                    }
+                    else if (tagValue == "cutscene2")
+                    {
+                        cutscene2.SetActive(true);
+                    }
+                    else if (tagValue == "cutscene3")
+                    {
+                        cutscene3.SetActive(true);
+                    }
+                    else if (tagValue == "cutscene4")
+                    {
+                        cutscene4.SetActive(true);
+                    }
+                    else if (tagValue == "cutscene5")
+                    {
+                        cutscene5.SetActive(true);
+                    }
+                    else
+                    {
+                        Debug.Log("Unrecognized background tag : " + tagValue);
+                    }
+                    break;
                 default:
                     Debug.Log("Unrecognized tag : " + tagKey);
                     break;
@@ -127,6 +167,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueText.text = "";
         continueIcon.SetActive(false);
+        UiHUD.SetActive(false);
         canContinueToNextLine = false;
         bool isAddingRichTextTag = false;
         foreach (char letter in line.ToCharArray())

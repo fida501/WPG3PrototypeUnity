@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public PlayManager playManager;
     private Animator _animator;
     [SerializeField] private Weapon weapon;
+    
 
 
     private void Start()
