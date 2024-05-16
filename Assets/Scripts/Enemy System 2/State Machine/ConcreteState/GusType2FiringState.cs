@@ -15,7 +15,7 @@ public class GusType2FiringState : EnemyBaseState
         base.EnterState();
         if (enemy.weapon.weaponCurrentAmmo == 0)
         {
-            enemy.weapon.setWeaponAmmo(30);
+            enemy.weapon.SetWeaponAmmo(30);
         } 
     }
 

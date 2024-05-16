@@ -8,21 +8,24 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
     [field: SerializeField] public float MaxHealth { get; set; } = 100f;
     public float CurrentHealth { get; set; }
 
+    public GameObject itemDropInstatiate;
+
+
     #region State Machine Variables
-    
+
     public EnemyStateMachine2 enemyStateMachine2 { get; private set; }
     public GusType2IdleState Type2IdleState { get; private set; }
     public GusType2FiringState Type2FiringState { get; private set; }
-    
+
     public GusType3RunawayState Type3RunawayState { get; private set; }
 
     #endregion
-    
+
     public Weapon weapon;
-    
-    
+
+
     public bool IsTriggered { get; set; }
-    
+
     public bool IsChased { get; set; }
 
     private void Awake()
@@ -36,7 +39,7 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
     private void Start()
     {
         CurrentHealth = MaxHealth;
-        
+
         enemyStateMachine2.Initialize(Type2IdleState);
     }
 
@@ -44,7 +47,7 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
     {
         enemyStateMachine2.currentState.FrameUpdate();
     }
-    
+
     private void FixedUpdate()
     {
         enemyStateMachine2.currentState.PhysicsUpdate();
@@ -63,6 +66,11 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
 
     public void Die()
     {
+        if (itemDropInstatiate != null)
+        {
+            Instantiate(itemDropInstatiate, transform.position, Quaternion.identity);
+        }
+
         Destroy(gameObject);
     }
 
@@ -82,10 +90,9 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
     {
         IsTriggered = isTriggered;
     }
-    
+
     public void SetChaseStatus(bool isChased)
     {
         IsChased = isChased;
     }
 }
-

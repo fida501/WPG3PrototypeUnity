@@ -28,8 +28,11 @@ public class Weapon : MonoBehaviour
     public float bulletDistance = 5f;
     public GameObject bullet;
     public bool isPlayerHoldingWeapon;
+
     [Header("Ammo")] public int weaponAmmo;
     public int weaponCurrentAmmo;
+    [SerializeField] private int ammoRemaining;
+
 
     public float weaponReloadTime = 2f;
 
@@ -65,7 +68,6 @@ public class Weapon : MonoBehaviour
         //
         //     parent = parent.parent;
         // }
-
         weaponCurrentAmmo = weaponAmmo;
     }
 
@@ -112,7 +114,7 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    public void setWeaponAmmo(int newAmmo)
+    public void SetWeaponAmmo(int newAmmo)
     {
         weaponAmmo = newAmmo;
     }
@@ -121,18 +123,23 @@ public class Weapon : MonoBehaviour
     {
         if (weaponCurrentAmmo == 0)
         {
-            startReloadAnimation(0);
+            StartReloadAnimation(0);
         }
         else if (weaponCurrentAmmo < weaponAmmo)
         {
-            startReloadAnimation(1);
+            StartReloadAnimation(1);
         }
     }
 
-    public void startReloadAnimation(int reloadAnimation)
+    public void StartReloadAnimation(int reloadAnimation)
     {
         // Play the reload animation
         // Reload the weapon
         weaponCurrentAmmo = weaponAmmo;
+    }
+
+    public void SetWeaponAmmoRemaining(int ammo)
+    {
+        ammoRemaining = ammo;
     }
 }

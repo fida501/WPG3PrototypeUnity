@@ -1,16 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public PlayerMovement movement;
     public Weapon weapon;
+    public Player player;
 
     private void Start()
     {
         movement = GetComponent<PlayerMovement>();
+        player = GetComponent<Player>();
     }
 
     void Update()
@@ -19,8 +22,8 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-        
-        if (Input.GetMouseButton(0) && weapon.CanShoot())
+
+        if (Input.GetMouseButton(0) && weapon.CanShoot() && weapon.weaponCurrentAmmo > 0)
         {
             weapon.Shoot(1);
         }
@@ -32,7 +35,14 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            weapon.Reload();
+            if (player.GetPlayerAmmoRemain() <= 0)
+            {
+                return;
+            }
+            else
+            {
+                player.PlayerReloadWeapon();
+            }
         }
     }
 }

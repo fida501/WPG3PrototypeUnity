@@ -1351,6 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <MaxHealth>k__BackingField: 100
+  itemDropInstatiate: {fileID: 0}
   weapon: {fileID: 0}
 --- !u!1 &7152111564077598503
 GameObject:

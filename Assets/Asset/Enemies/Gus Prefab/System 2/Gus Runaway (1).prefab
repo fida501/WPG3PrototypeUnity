@@ -1280,6 +1280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <MaxHealth>k__BackingField: 100
+  itemDropInstatiate: {fileID: 1121740900359187014, guid: 52ae2f4b409776847863841b59138d3b, type: 3}
   weapon: {fileID: 0}
   runawaySpeed: 5
 --- !u!1 &7684003275441954033

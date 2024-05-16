@@ -6,12 +6,17 @@ using UnityEngine;
 public class Aiming : MonoBehaviour
 {
     public float zDistance;
-
     public GameObject playerGameObject;
+    public Transform targetTransform;
+    public LayerMask mouseAimmask;
+
+    private Camera _mainCamera;
+
 
     // Use this for initialization
     void Start()
     {
+        _mainCamera = Camera.main;
     }
 
     // Update is called once per frame
@@ -21,58 +26,32 @@ public class Aiming : MonoBehaviour
         {
             return;
         }
+
+        //transform.LookAt(targetTransform);
+
         var mousePos = Input.mousePosition;
 
-        // Use raycasting to get the position on the plane at zDistance from the camera.
-        Ray ray = Camera.main.ScreenPointToRay(mousePos);
-        Plane plane = new Plane(Vector3.forward, new Vector3(transform.position.x, transform.position.y, zDistance));
-
-        if (plane.Raycast(ray, out float hitDistance))
+        Ray ray = _mainCamera.ScreenPointToRay(mousePos);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, mouseAimmask))
         {
-            Vector3 targetPosition = ray.GetPoint(hitDistance);
+            targetTransform.position = hit.point;
 
-            // Ensure the rotation only affects the Z-axis.
-            Vector3 direction = targetPosition - transform.position;
+            // Use LookAt to get the direction to the target
+            Vector3 direction = targetTransform.position - transform.position;
 
-            // float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            // transform.rotation = Quaternion.Euler(0, 0, angle);
-            Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
-            // float offset = 45f;
-            // transform.rotation = Quaternion.Euler(0, 0, rotation.eulerAngles.z + offset);
+            // Calculate the angle in degrees
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
+            // Create a rotation that only affects the Z axis
+            Quaternion rotation = Quaternion.Euler(0, 0, angle);
 
-            // Add an offset to the Z rotation.
-            float offset = 45f; // Adjust this value as needed.
-            float clampedRotation = Mathf.Clamp(rotation.eulerAngles.z + offset, 220f, 360f);
-
-            transform.rotation = Quaternion.Euler(0, 0, clampedRotation);
+            // Apply the rotation to the transform
+            transform.rotation = rotation;
         }
+    }
 
-
-        //
-        // // Add an offset to the Z rotation.
-        // float offset = 45f; // Adjust this value as needed.
-        // transform.rotation = Quaternion.Euler(0, 0, rotation.eulerAngles.z + offset);
-        // // Get the current Z rotation of the GameObject.
-        // float currentZRotation = transform.rotation.eulerAngles.z;
-        // // if (currentZRotation >= 0f && currentZRotation <= 270f)
-        // // {
-        // //     // Reference to the playerGameObject.
-        // //     if (playerGameObject != null)
-        // //     {
-        // //         // Set the Y rotation to 180.
-        // //         playerGameObject.transform.rotation = Quaternion.Euler(0, 180, 0);
-        // //         
-        // //         transform.rotation = Quaternion.Euler(0, 180, rotation.eulerAngles.z + offset);
-        // //     }
-        // // } else if (currentZRotation >= 270f && currentZRotation <= 360f)
-        // // {
-        // //     // Reference to the playerGameObject.
-        // //     if (playerGameObject != null)
-        // //     {
-        // //         // Set the Y rotation to 0.
-        // //         playerGameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
-        // //     }
-        // // }
+    private void OnAnimatorIK()
+    {
     }
 }

@@ -12,8 +12,8 @@ public class UIPlayManager : MonoBehaviour
     [SerializeField] private int weaponCurrentAmmo;
     [SerializeField] private int weaponAvailableAmmo;
     [SerializeField] private GameObject playHUD;
-    
-    
+
+
     private void Start()
     {
         weapon = player.GetWeapon();
@@ -24,6 +24,7 @@ public class UIPlayManager : MonoBehaviour
     private void Update()
     {
         weaponCurrentAmmo = weapon.weaponCurrentAmmo;
+        weaponAvailableAmmo = player.GetPlayerAmmoRemain();
         bulletRemainingTMP.text = weaponCurrentAmmo + "/" + weaponAvailableAmmo;
     }
 }

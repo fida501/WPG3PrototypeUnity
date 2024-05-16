@@ -17,10 +17,9 @@ public class PlayManager : MonoBehaviour
     private int currentTrackIndex;
     public AudioClip[] musicTracks;
 
-    [Header("Dialogue")] 
-    public DialogueTrigger dialogueTrigger;
+    [Header("Dialogue")] public DialogueTrigger dialogueTrigger;
     private TextAsset _endDialogue;
-    
+
     private void Awake()
     {
         currentCondition = "Playing";
@@ -28,7 +27,11 @@ public class PlayManager : MonoBehaviour
 
     private void Start()
     {
-        dialogueTrigger.DialogueTriggered();
+        if (dialogueTrigger != null)
+        {
+            dialogueTrigger.DialogueTriggered();
+        }
+
         PlayNextTrack();
     }
 

@@ -9,6 +9,9 @@ public class CutsceneManager : MonoBehaviour
 {
     [SerializeField] private bool startDialogueAvailable;
     [SerializeField] private DialogueTrigger dialogueTrigger;
+    [SerializeField] private string sceneNameToLoad;
+    
+    
 
     private void Start()
     {
@@ -22,7 +25,7 @@ public class CutsceneManager : MonoBehaviour
     {
         if (DialogueManager.GetInstance().IsDialogueIsPlaying == false)
         {
-            SceneManager.LoadScene("1-1");
+            SceneManager.LoadScene(sceneNameToLoad);
         }
     }
 }

@@ -1,21 +1,10 @@
-<i>Aku berdiri dari kondisi terbaring</i> #speaker:???
+“Operation 26”  #speaker:
 
-Ukh… Aku… dimana ? #speaker:??? 
-
-Pria itu mengambil senapan riflenya yang tergeletak beberapa meter di depannya. #speaker:
-
-“Operation 26” #speaker:
-
-Netherland Sea Border #speaker:
-
-IPF-PRT Aegis 1 #speaker:
-
-June 26th, 2034 #speaker:
+Netherland Sea Border <br> IPF-PRT Aegis 1 <br> June 26th, 2034 #speaker:
 
 <i>Suara getaran mesin baling-baling dari dalam helikopter</i> #speaker:
 
-... #background:cutscene2
-
+... #background
 30 Menit sebelum sampai ke lokasi pendaratan !#speaker:Pilot #background:cutscene1
 
 Sesudahnya kalian sampai di sana, cari tahu apa yang terjadi, padamkan radiasi chirium dan segera pergi dari sana. #speaker:Markas Besar

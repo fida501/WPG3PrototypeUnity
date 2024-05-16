@@ -359,7 +359,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 761ed7c24f699ec4e8fa1199f4faf5ea, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7cfa12a2e974556499e1b5c1f14b9156, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1732,6 +1732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogueAvailable: 1
   dialogueTrigger: {fileID: 1933085074}
+  sceneNameToLoad: Tutorial
 --- !u!114 &1933085074
 MonoBehaviour:
   m_ObjectHideFlags: 0
