@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyKroco
       objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15

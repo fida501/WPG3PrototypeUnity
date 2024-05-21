@@ -2,7 +2,7 @@
 
 Netherland Sea Border <br> IPF-PRT Aegis 1 <br> June 26th, 2034 #speaker:
 
-<i>Suara getaran mesin baling-baling dari dalam helikopter</i> #speaker:
+<i>Suara getaran mesin baling-baling dari dalam helikopter</i> #speaker: , #sfx:
 
 ... #background
 30 Menit sebelum sampai ke lokasi pendaratan !#speaker:Pilot #background:cutscene1
@@ -19,7 +19,7 @@ Sepertinya benar apa yang dikatakan HQ, kalau radius jammernya bisa sampai sini 
 
 Kita sudah mulai memasuki wilayah Belanda, tidak terlihat ada aktivitas warga sama sekali. Hanya asap dan suara ledakan di kejauhan. Sepertinya habis ada peperangan di sekitar sini. #speaker:Franz
 
-<i>Suara alarm helicopter berbunyi</i> #speaker:
+<i>Suara alarm helicopter berbunyi</i> #speaker: 
 
 Kendaraan kita sudah terkunci #speaker:Co-Pilot
 

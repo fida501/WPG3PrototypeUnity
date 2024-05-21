@@ -13,9 +13,10 @@ public class PlayManager : MonoBehaviour
     [SerializeField] private GameObject UIHUD;
 
 
-    [Header("Muzika")] public AudioSource audioSource;
+    [Header("Muzika")] [SerializeField] public AudioSource audioSource;
     private int currentTrackIndex;
     public AudioClip[] musicTracks;
+
 
     [Header("Dialogue")] public DialogueTrigger dialogueTrigger;
     private TextAsset _endDialogue;
@@ -64,15 +65,19 @@ public class PlayManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
         UIHUD.SetActive(false);
         winUI.SetActive(true);
+        audioSource.volume = 0.1f;
+        audioSource.PlayOneShot(musicTracks[2]);
     }
 
     void PlayNextTrack()
     {
+        
         // Play current sound
         // I would rather use PlayOneShot in order to allow multiple concurrent sounds
         audioSource.PlayOneShot(musicTracks[currentTrackIndex]);
-
+        
         // Increase the index, wrap around if reached end of array
         currentTrackIndex = (currentTrackIndex + 1) % musicTracks.Length;
+        
     }
 }
