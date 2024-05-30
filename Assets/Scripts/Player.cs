@@ -57,7 +57,10 @@ public class Player : MonoBehaviour
 
     private void OnEnable()
     {
-        DialogueManager.GetInstance().OnDialogueTriggere += HandleDialogue;
+        if(DialogueManager.GetInstance() != null)
+        {
+            DialogueManager.GetInstance().OnDialogueTriggere += HandleDialogue;
+        }
     }
 
     private void OnDisable()

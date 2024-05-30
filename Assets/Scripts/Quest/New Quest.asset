@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questName: 
   isQuestToCollectItem: 0
-  isQuestToKillEnemy: 0
-  enemyToKill: 0
+  isQuestToKillEnemy: 1
+  enemyToKill: 21
   itemToCollect: 0
   isCompleted: 0

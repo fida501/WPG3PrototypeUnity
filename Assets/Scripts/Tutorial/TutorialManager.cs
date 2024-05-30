@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class TutorialManager : MonoBehaviour
     public int currentTutorialIndex = 0;
     public bool isTutorialDone = false;
     public PlayManager playManager;
+
+    //TODO : cuma buat playtest, jangan lupa di hapus
+    public string nextStageName = "1-1";
 
 
     private static TutorialManager instance;
@@ -51,7 +55,10 @@ public class TutorialManager : MonoBehaviour
         if (isTutorialDone)
         {
             ExitTutorialAfter5Seconds();
-            playManager.currentCondition = "Win";
+            //TODO: cuma buat playtest, nanti jangan lupa di ganti
+//            playManager.currentCondition = "Win";
+            // start ienumerator to start next stage after 5 seconds
+            StartCoroutine(StartStage1After5Seconds());
         }
     }
 
@@ -72,5 +79,18 @@ public class TutorialManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         DIsableAllTutorials();
+    }
+
+    //TODO: Cuma buat playtest, jangan lupa di ganti
+    //courutine, do StartStage1() after 5 seconds
+    public IEnumerator StartStage1After5Seconds()
+    {
+        yield return new WaitForSeconds(5f);
+        StartStage1();
+    }
+
+    public void StartStage1()
+    {
+        SceneManager.LoadScene(nextStageName);
     }
 }

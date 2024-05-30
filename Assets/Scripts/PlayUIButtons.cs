@@ -7,6 +7,9 @@ public class PlayUIButtons : MonoBehaviour
 {
     public string currentSceneName;
 
+    [SerializeField] private string nextStageSceneName = "";
+
+
     //Button Function for lose Button Retry
     public void Retry()
     {
@@ -18,9 +21,13 @@ public class PlayUIButtons : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
-
-    public string GetCurrentSceneName()
+    private string GetCurrentSceneName()
     {
         return SceneManager.GetActiveScene().name;
+    }
+
+    public void NextStage()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextStageSceneName);
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(Quest))]
+//[CustomEditor(typeof(Quest))]
 public class QuestEditor : Editor
 {
     public override void OnInspectorGUI()
