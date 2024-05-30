@@ -115,6 +115,7 @@ MonoBehaviour:
   bulletDistance: 5
   bullet: {fileID: 0}
   isPlayerHoldingWeapon: 0
+  bulletShootEffect: {fileID: 7315992310705729640, guid: d0e95c0efb1acb240832987c76e405bf, type: 3}
   weaponAmmo: 0
   weaponCurrentAmmo: 0
   ammoRemaining: 0

@@ -23,6 +23,9 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
 
     public Weapon weapon;
 
+    [SerializeField] private Player player;
+    
+
 
     public bool IsTriggered { get; set; }
 
@@ -41,6 +44,9 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
         CurrentHealth = MaxHealth;
 
         enemyStateMachine2.Initialize(Type2IdleState);
+        
+        player = FindObjectOfType<Player>();
+        
     }
 
     private void Update()
@@ -68,9 +74,12 @@ public class EnemyBase : MonoBehaviour, IDamageAble, ITriggerCheckable
     {
         if (itemDropInstatiate != null)
         {
-            Instantiate(itemDropInstatiate, transform.position, Quaternion.identity);
+            var position = transform.position;
+            float newPositionZ = 5.5f;
+            Vector3 dropPosition = new Vector3(position.x, position.y, newPositionZ);
+            Instantiate(itemDropInstatiate, dropPosition, Quaternion.identity);
         }
-
+        player.IncreasePlayerKills();
         Destroy(gameObject);
     }
 

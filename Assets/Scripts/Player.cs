@@ -17,6 +17,9 @@ public class Player : MonoBehaviour
     [Header("Inventory")] [SerializeField] private int playerAmmoRemain;
     [SerializeField] private int playerBadges;
 
+    [Header("Player Record")] [SerializeField]
+    private float enemyKilled;
+
 
     private void Start()
     {
@@ -129,5 +132,20 @@ public class Player : MonoBehaviour
     public int GetPlayerBadges()
     {
         return playerBadges;
+    }
+
+    public void IncreasePlayerKills()
+    {
+        enemyKilled++;
+    }
+
+    public float GetPlayerKills()
+    {
+        return enemyKilled;
+    }
+
+    public void ResetPlayerKills()
+    {
+        enemyKilled = 0;
     }
 }

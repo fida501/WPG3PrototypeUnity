@@ -28,7 +28,11 @@ public class Weapon : MonoBehaviour
     public float bulletDistance = 5f;
     public GameObject bullet;
     public bool isPlayerHoldingWeapon;
-
+    //public GameObject bulletShootEffect;
+    [SerializeField] private GameObject bulletShootEffect;
+    [SerializeField] private GameObject bulletShootEffectRespawnPoint;
+    
+    
     [Header("Ammo")] public int weaponAmmo;
     public int weaponCurrentAmmo;
     [SerializeField] private int ammoRemaining;
@@ -80,6 +84,7 @@ public class Weapon : MonoBehaviour
     {
         if (weaponCurrentAmmo > 0)
         {
+            PlayWeaponShootEffect();
             weaponCurrentAmmo--;
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
             bulletPrefab.GetComponent<Bullet>().SetBulletDamage(bulletDamage);
@@ -141,5 +146,18 @@ public class Weapon : MonoBehaviour
     public void SetWeaponAmmoRemaining(int ammo)
     {
         ammoRemaining = ammo;
+    }
+
+    public void PlayWeaponShootEffect()
+    {
+//        Instantiate(bulletShootEffect, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+        if (bulletShootEffect != null)
+        {
+            //Instantiate(bulletShootEffect, bulletShootEffect.transform.position ,bulletSpawnPoint.rotation);
+
+            GameObject effect = Instantiate(bulletShootEffect, bulletShootEffectRespawnPoint.transform.position,
+                bulletShootEffectRespawnPoint.transform.rotation);
+            Destroy(effect, 0.15f);
+        }
     }
 }
