@@ -1857,13 +1857,15 @@ MonoBehaviour:
   bulletDistance: 15
   bullet: {fileID: 0}
   isPlayerHoldingWeapon: 1
+  bulletShootEffect: {fileID: 0}
+  bulletShootEffectRespawnPoint: {fileID: 0}
   weaponAmmo: 30
   weaponCurrentAmmo: 0
   ammoRemaining: 0
   weaponReloadTime: 2
   nextFireTime: 0
   shootingAudioSource: {fileID: 1822021306}
-  shootingSFX: {fileID: 8300000, guid: ca45a85941dbcee49ba92287122faccf, type: 3}
+  shootingSFX: {fileID: 8300000, guid: efe2f70f56a303048b453c5fe577e21e, type: 3}
 --- !u!114 &343298262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2652,6 +2654,7 @@ MonoBehaviour:
   weapon: {fileID: 343298261}
   playerAmmoRemain: 120
   playerBadges: 0
+  enemyKilled: 0
 --- !u!114 &500630341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2812,6 +2815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4588b74163bd6a14b9af893e1475fa76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSceneName: 
+  nextStageSceneName: 
 --- !u!114 &505502755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5987,6 +5992,7 @@ MonoBehaviour:
   currentTutorialIndex: 0
   isTutorialDone: 0
   playManager: {fileID: 600393941}
+  nextStageName: 1-1
 --- !u!1 &1011107147
 GameObject:
   m_ObjectHideFlags: 0
@@ -6263,6 +6269,8 @@ MonoBehaviour:
   bulletDistance: 15
   bullet: {fileID: 0}
   isPlayerHoldingWeapon: 1
+  bulletShootEffect: {fileID: 0}
+  bulletShootEffectRespawnPoint: {fileID: 0}
   weaponAmmo: 30
   weaponCurrentAmmo: 0
   ammoRemaining: 0
@@ -6553,6 +6561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4588b74163bd6a14b9af893e1475fa76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSceneName: 
+  nextStageSceneName: 
 --- !u!114 &1074547255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6749,6 +6759,8 @@ MonoBehaviour:
   bulletDistance: 5
   bullet: {fileID: 0}
   isPlayerHoldingWeapon: 0
+  bulletShootEffect: {fileID: 0}
+  bulletShootEffectRespawnPoint: {fileID: 0}
   weaponAmmo: 0
   weaponCurrentAmmo: 0
   ammoRemaining: 0
@@ -7885,6 +7897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4588b74163bd6a14b9af893e1475fa76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSceneName: 
+  nextStageSceneName: 
 --- !u!1001 &1326212285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8870,6 +8884,7 @@ MonoBehaviour:
   weapon: {fileID: 0}
   playerAmmoRemain: 0
   playerBadges: 0
+  enemyKilled: 0
 --- !u!4 &1358755745 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ad19fce2491c6d446875fa013d6cffe6, type: 3}
@@ -9306,6 +9321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4588b74163bd6a14b9af893e1475fa76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSceneName: 
+  nextStageSceneName: 
 --- !u!1 &1448012454
 GameObject:
   m_ObjectHideFlags: 0
@@ -10820,6 +10837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4588b74163bd6a14b9af893e1475fa76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSceneName: 
+  nextStageSceneName: 
 --- !u!114 &1758470991
 MonoBehaviour:
   m_ObjectHideFlags: 0
