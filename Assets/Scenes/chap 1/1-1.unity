@@ -3747,8 +3747,9 @@ MonoBehaviour:
   UIHUD: {fileID: 1913292192}
   audioSource: {fileID: 962483014}
   musicTracks:
-  - {fileID: 8300000, guid: 9df62c78cc4f05a45b24f1e3ef0decc6, type: 3}
+  - {fileID: 8300000, guid: 5920ca7b9f2a0504cb6d2058073e2142, type: 3}
   - {fileID: 8300000, guid: 4f86872b94220d24e8ca00ef13e0059a, type: 3}
+  - {fileID: 8300000, guid: 4fac88c91b46bb44c8056a3bdde2bb2d, type: 3}
   dialogueTrigger: {fileID: 0}
 --- !u!4 &600393942
 Transform:
@@ -6995,6 +6996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Karakter_Utama_REV1_PSB (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3603662108016699402, guid: 5b882bf5985c4ec4aa67b68f6fe34879, type: 3}
+      propertyPath: shootingSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: efe2f70f56a303048b453c5fe577e21e, type: 3}
     - target: {fileID: 4718425091727673414, guid: 5b882bf5985c4ec4aa67b68f6fe34879, type: 3}
       propertyPath: playManager
       value: 
