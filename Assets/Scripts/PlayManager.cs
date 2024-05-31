@@ -49,8 +49,17 @@ public class PlayManager : MonoBehaviour
 
         if (!audioSource.isPlaying)
         {
-            PlayNextTrack();
+            if (currentTrackIndex == 0)
+            {
+                PlayNextTrack();
+            }
+            else if (currentTrackIndex == 1)
+            {
+                audioSource.PlayOneShot(musicTracks[1]);
+            }
+//            audioSource.PlayOneShot(musicTracks[1]);
         }
+        
     }
 
     public IEnumerator StartLoseUI()
