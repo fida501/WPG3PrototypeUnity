@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -70,11 +72,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -6754,28 +6759,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      testGoshCop3y_6: -2132622061
-      testGoshCop3y_17: 1220143958
-      testGoshCop3y_8: -744989202
+      testGoshCop3y_0: 83830093
       testGoshCop3y_1: -306737577
-      testGoshCop3y_18: 125945886
-      testGoshCop3y_2: -1078493011
-      testGoshCop3y_15: -899381093
       testGoshCop3y_10: -1024367959
       testGoshCop3y_11: -1079898810
-      testGoshCop3y_0: 83830093
-      testGoshCop3y_14: 825368540
       testGoshCop3y_12: 1749479562
-      testGoshCop3y_9: 234694041
-      testGoshCop3y_4: 1705553696
-      testGoshCop3y_16: 1255739267
-      testGoshCop3y_7: -1407286077
-      testGoshCop3y_5: 2059478282
-      testGoshCop3y_3: -1959108620
       testGoshCop3y_13: 1145587347
-  spritePackingTag: 
+      testGoshCop3y_14: 825368540
+      testGoshCop3y_15: -899381093
+      testGoshCop3y_16: 1255739267
+      testGoshCop3y_17: 1220143958
+      testGoshCop3y_18: 125945886
+      testGoshCop3y_2: -1078493011
+      testGoshCop3y_3: -1959108620
+      testGoshCop3y_4: 1705553696
+      testGoshCop3y_5: 2059478282
+      testGoshCop3y_6: -2132622061
+      testGoshCop3y_7: -1407286077
+      testGoshCop3y_8: -744989202
+      testGoshCop3y_9: 234694041
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

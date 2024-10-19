@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI PlayUI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 16384
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 2bf21fd79bada3c47a391ce02379e4b7, type: 3}
+    - {fileID: 102900000, guid: c13996205abbddf419ce56999e792bff, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 99da5970f33283c429efe9cc14bb9813: 21300000
+    - 133a2571c37e4324287506d7f5efda0e: 21300000
+    - 9c42485252d32ae418970a4839623a87: 21300000
+    - 12fb752551fef1e4894a61858379d17b: 21300000
+    - 6c9cbc07edc29a34598f042b1479d479: 21300000
+    - 1f34fb47ca0f22243b699de9f3e978b2: 21300000
+    - 92218d68bc1283140b81210bc58bdbc4: 21300000
+    - 599b89a8ce3e82547b8d8e88cb7a6abe: 21300000
+    - 470767e8e9c71b64ebcff4f552f16aba: 21300000
+    - 59c8c8d9462a4d44f9f4da59634b943c: 21300000
+    - 5967587af45c9d9408373dae33011249: 21300000
+    - d5d019eaf016aad498995160979efb2e: 21300000
+    - fa64b6bb7a0684f47a855c2af4c65c1a: 21300000
+    - 59908ffbe81156142adefae8d417ddf1: 21300000
+    - 37e33e5fa92a49541ac4a20e03805cb9: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 99da5970f33283c429efe9cc14bb9813, type: 3}
+  - {fileID: 21300000, guid: 133a2571c37e4324287506d7f5efda0e, type: 3}
+  - {fileID: 21300000, guid: 9c42485252d32ae418970a4839623a87, type: 3}
+  - {fileID: 21300000, guid: 12fb752551fef1e4894a61858379d17b, type: 3}
+  - {fileID: 21300000, guid: 6c9cbc07edc29a34598f042b1479d479, type: 3}
+  - {fileID: 21300000, guid: 1f34fb47ca0f22243b699de9f3e978b2, type: 3}
+  - {fileID: 21300000, guid: 92218d68bc1283140b81210bc58bdbc4, type: 3}
+  - {fileID: 21300000, guid: 599b89a8ce3e82547b8d8e88cb7a6abe, type: 3}
+  - {fileID: 21300000, guid: 470767e8e9c71b64ebcff4f552f16aba, type: 3}
+  - {fileID: 21300000, guid: 59c8c8d9462a4d44f9f4da59634b943c, type: 3}
+  - {fileID: 21300000, guid: 5967587af45c9d9408373dae33011249, type: 3}
+  - {fileID: 21300000, guid: d5d019eaf016aad498995160979efb2e, type: 3}
+  - {fileID: 21300000, guid: fa64b6bb7a0684f47a855c2af4c65c1a, type: 3}
+  - {fileID: 21300000, guid: 59908ffbe81156142adefae8d417ddf1, type: 3}
+  - {fileID: 21300000, guid: 37e33e5fa92a49541ac4a20e03805cb9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tutor spasi
+  - Subtract (2)
+  - 1702270698512 1
+  - tutor spasi (1)
+  - empty
+  - ui ingame
+  - Group 1
+  - tutor r
+  - Cahaya Ilahi
+  - Subtract (1)
+  - Tutor 2
+  - Subtract
+  - Border
+  - 20231211_115932 1
+  - tutor mouse
+  m_RenderDataMap: {}
+  m_Tag: UI PlayUI
+  m_IsVariant: 0

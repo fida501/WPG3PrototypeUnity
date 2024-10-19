@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atas MC 1
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 16384
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -3509868370847484030, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 2304263491621920155, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 6807334462150061208, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -5581201122526263918, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -4540264549348064480, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 972503084218034628, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 6231557217074289290, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 3951439893217452339, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 3370493568079001889, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -7272000682195878157, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 7752975516544256549, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -8328923581568760697, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 8258186595760311056, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -3187114213599876104, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -5815107453786887677, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -7367949973249049875, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -1588980770883043651, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -1447827483715429118, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: -5253804589196271447, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    - {fileID: 7025446105115226936, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a423b990fd4be4241a4d9f21f54dddda: 6807334462150061208
+    - a423b990fd4be4241a4d9f21f54dddda: 3951439893217452339
+    - a423b990fd4be4241a4d9f21f54dddda: 7025446105115226936
+    - a423b990fd4be4241a4d9f21f54dddda: 8258186595760311056
+    - a423b990fd4be4241a4d9f21f54dddda: -5581201122526263918
+    - a423b990fd4be4241a4d9f21f54dddda: -3509868370847484030
+    - a423b990fd4be4241a4d9f21f54dddda: 972503084218034628
+    - a423b990fd4be4241a4d9f21f54dddda: 7752975516544256549
+    - a423b990fd4be4241a4d9f21f54dddda: -4540264549348064480
+    - a423b990fd4be4241a4d9f21f54dddda: -5815107453786887677
+    - a423b990fd4be4241a4d9f21f54dddda: 6231557217074289290
+    - a423b990fd4be4241a4d9f21f54dddda: 2304263491621920155
+    - a423b990fd4be4241a4d9f21f54dddda: -3187114213599876104
+    - a423b990fd4be4241a4d9f21f54dddda: 3370493568079001889
+    - a423b990fd4be4241a4d9f21f54dddda: -1588980770883043651
+    - a423b990fd4be4241a4d9f21f54dddda: -5253804589196271447
+    - a423b990fd4be4241a4d9f21f54dddda: -7272000682195878157
+    - a423b990fd4be4241a4d9f21f54dddda: -7367949973249049875
+    - a423b990fd4be4241a4d9f21f54dddda: -1447827483715429118
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 6807334462150061208, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 3951439893217452339, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 7025446105115226936, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 8258186595760311056, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -5581201122526263918, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -3509868370847484030, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 972503084218034628, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 7752975516544256549, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -4540264549348064480, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -5815107453786887677, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 6231557217074289290, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 2304263491621920155, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -3187114213599876104, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: 3370493568079001889, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -1588980770883043651, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -5253804589196271447, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -7272000682195878157, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -7367949973249049875, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  - {fileID: -1447827483715429118, guid: a423b990fd4be4241a4d9f21f54dddda, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Armor
+  - Fore arm
+  - Shoulders
+  - Kepala
+  - Bicep Tricep
+  - 2. badan
+  - Driji
+  - HAnd KANAN
+  - Bicep Tricep kanan
+  - Pupu
+  - Driji kanan
+  - 5. Pinggul
+  - Paha kanan
+  - fore arm kanan
+  - Sayap
+  - Shoulder kanan
+  - Hand
+  - Rambut
+  - Sayap kanan
+  m_RenderDataMap: {}
+  m_Tag: Atas MC 1
+  m_IsVariant: 0

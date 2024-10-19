@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Visual Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4d9b56837141bc0479993cb9dca218f7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 615d3730a25c1f846acee43e62695572: 21300000
+    - 2ec7437000815534da4eb55a07c75bcf: 21300000
+    - 249e49120cf5e6c4ebb7a1026dc93e7f: 21300000
+    - 35d3dec2f9921c0409bcb99c7c968771: 21300000
+    - 93306f13fc58d484da1502fb192a57be: 21300000
+    - ffd422e379ebf324f93aee20d601d1e7: 21300000
+    - 41d49fa4443a25b49a7473968f1d6efe: 21300000
+    - 1dbbd6259ff022548801e3a2fe2e7c8a: 21300000
+    - 99842e3516d941943ba463d2f308b9e3: 21300000
+    - 3cc288a5424d21747924c91b0b626a5c: 21300000
+    - 932f6b379924b1141b2f3ae9af10a73a: 21300000
+    - 7f2b717796feb304597088dadb1d9973: 21300000
+    - 359316484bc135a419ad4975d9fca219: 21300000
+    - d1839e4825665504eb36cff4826edeee: -1407286077
+    - d1839e4825665504eb36cff4826edeee: -2132622061
+    - d1839e4825665504eb36cff4826edeee: 2059478282
+    - d1839e4825665504eb36cff4826edeee: 1705553696
+    - d1839e4825665504eb36cff4826edeee: -1959108620
+    - d1839e4825665504eb36cff4826edeee: -1078493011
+    - d1839e4825665504eb36cff4826edeee: 1749479562
+    - d1839e4825665504eb36cff4826edeee: -306737577
+    - d1839e4825665504eb36cff4826edeee: 1145587347
+    - d1839e4825665504eb36cff4826edeee: 83830093
+    - d1839e4825665504eb36cff4826edeee: -1024367959
+    - d1839e4825665504eb36cff4826edeee: -1079898810
+    - d1839e4825665504eb36cff4826edeee: 1255739267
+    - d1839e4825665504eb36cff4826edeee: 1220143958
+    - d1839e4825665504eb36cff4826edeee: 825368540
+    - d1839e4825665504eb36cff4826edeee: -899381093
+    - d1839e4825665504eb36cff4826edeee: 234694041
+    - d1839e4825665504eb36cff4826edeee: -744989202
+    - d1839e4825665504eb36cff4826edeee: 125945886
+    - aa457cf8faab5134c87f3e77d90d4c4c: 21300000
+    - aeacc209482bc40419acc1f5f6f33b77: 21300000
+    - d724cde9a95e2f244a1c068b84385d88: 21300000
+    - a755225d86859bd4abbf0546b62860e6: 21300000
+    - 6a3be2ddaecda094e9f655a3909a8bb8: 21300000
+    - 6f749c4ff3ba19744ba5f614bee6dc8a: 21300000
+    - d3ad7b7f7e9ac9c4f931e927d610652a: 21300000
+    - b4df87ef96024f240b97cd32be3e7c4d: -5653039074498844938
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 615d3730a25c1f846acee43e62695572, type: 3}
+  - {fileID: 21300000, guid: 2ec7437000815534da4eb55a07c75bcf, type: 3}
+  - {fileID: 21300000, guid: 249e49120cf5e6c4ebb7a1026dc93e7f, type: 3}
+  - {fileID: 21300000, guid: 35d3dec2f9921c0409bcb99c7c968771, type: 3}
+  - {fileID: 21300000, guid: 93306f13fc58d484da1502fb192a57be, type: 3}
+  - {fileID: 21300000, guid: ffd422e379ebf324f93aee20d601d1e7, type: 3}
+  - {fileID: 21300000, guid: 41d49fa4443a25b49a7473968f1d6efe, type: 3}
+  - {fileID: 21300000, guid: 1dbbd6259ff022548801e3a2fe2e7c8a, type: 3}
+  - {fileID: 21300000, guid: 99842e3516d941943ba463d2f308b9e3, type: 3}
+  - {fileID: 21300000, guid: 3cc288a5424d21747924c91b0b626a5c, type: 3}
+  - {fileID: 21300000, guid: 932f6b379924b1141b2f3ae9af10a73a, type: 3}
+  - {fileID: 21300000, guid: 7f2b717796feb304597088dadb1d9973, type: 3}
+  - {fileID: 21300000, guid: 359316484bc135a419ad4975d9fca219, type: 3}
+  - {fileID: -1407286077, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -2132622061, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 2059478282, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 1705553696, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -1959108620, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -1078493011, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 1749479562, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -306737577, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 1145587347, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 83830093, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -1024367959, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -1079898810, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 1255739267, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 1220143958, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 825368540, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -899381093, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 234694041, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: -744989202, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 125945886, guid: d1839e4825665504eb36cff4826edeee, type: 3}
+  - {fileID: 21300000, guid: aa457cf8faab5134c87f3e77d90d4c4c, type: 3}
+  - {fileID: 21300000, guid: aeacc209482bc40419acc1f5f6f33b77, type: 3}
+  - {fileID: 21300000, guid: d724cde9a95e2f244a1c068b84385d88, type: 3}
+  - {fileID: 21300000, guid: a755225d86859bd4abbf0546b62860e6, type: 3}
+  - {fileID: 21300000, guid: 6a3be2ddaecda094e9f655a3909a8bb8, type: 3}
+  - {fileID: 21300000, guid: 6f749c4ff3ba19744ba5f614bee6dc8a, type: 3}
+  - {fileID: 21300000, guid: d3ad7b7f7e9ac9c4f931e927d610652a, type: 3}
+  - {fileID: -5653039074498844938, guid: b4df87ef96024f240b97cd32be3e7c4d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - jari kiri
+  - sepatu kanan
+  - kaki kiri
+  - bicep kiri
+  - kaki kanan
+  - Rig
+  - Kepala
+  - forearm kiri
+  - jari kanan
+  - exclamation-circle-solid
+  - paha[l
+  - Badan
+  - Headset
+  - testGoshCop3y_7
+  - testGoshCop3y_6
+  - testGoshCop3y_5
+  - testGoshCop3y_4
+  - testGoshCop3y_3
+  - testGoshCop3y_2
+  - testGoshCop3y_12
+  - testGoshCop3y_1
+  - testGoshCop3y_13
+  - testGoshCop3y_0
+  - testGoshCop3y_10
+  - testGoshCop3y_11
+  - testGoshCop3y_16
+  - testGoshCop3y_17
+  - testGoshCop3y_14
+  - testGoshCop3y_15
+  - testGoshCop3y_9
+  - testGoshCop3y_8
+  - testGoshCop3y_18
+  - sepatu kiri
+  - bicep kanan
+  - pinggul
+  - Tangan kanan
+  - pahai kanan
+  - bahu kanan
+  - Bahu kiri
+  - KARAKTER Gosh+Senjata
+  m_RenderDataMap: {}
+  m_Tag: Visual Atlas
+  m_IsVariant: 0

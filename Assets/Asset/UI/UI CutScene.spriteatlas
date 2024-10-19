@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI CutScene
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 16384
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 56ce6e215d9d4b64e9f18628680c6c1d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 361c2990f271b9b4dbce4803f8a5fe41: 21300000
+    - 3f236ef1f4d6fe94ca385714b1edf25b: 21300000
+    - b6860172c9a409542acfd0e3b87f1704: 21300000
+    - 7b0701f51eb5d464087284972018bb59: 21300000
+    - e2f555c7a29b0544a849a0d3f9f5c310: 21300000
+    - 4c0926c9f71d6cf4589503b7812350bd: 21300000
+    - fb45f6eacecaf954f934c846f3e17e2c: 21300000
+    - e0b8845d5d6035b4a9996644e4acac88: 21300000
+    - 9326af4f2ba18e743957a154f347b39a: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 361c2990f271b9b4dbce4803f8a5fe41, type: 3}
+  - {fileID: 21300000, guid: 3f236ef1f4d6fe94ca385714b1edf25b, type: 3}
+  - {fileID: 21300000, guid: b6860172c9a409542acfd0e3b87f1704, type: 3}
+  - {fileID: 21300000, guid: 7b0701f51eb5d464087284972018bb59, type: 3}
+  - {fileID: 21300000, guid: e2f555c7a29b0544a849a0d3f9f5c310, type: 3}
+  - {fileID: 21300000, guid: 4c0926c9f71d6cf4589503b7812350bd, type: 3}
+  - {fileID: 21300000, guid: fb45f6eacecaf954f934c846f3e17e2c, type: 3}
+  - {fileID: 21300000, guid: e0b8845d5d6035b4a9996644e4acac88, type: 3}
+  - {fileID: 21300000, guid: 9326af4f2ba18e743957a154f347b39a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Next button
+  - cutscene1
+  - asdasdsad
+  - cutscene4
+  - cutscene3
+  - cutscene2
+  - text box
+  - reference
+  - cutscene5
+  m_RenderDataMap: {}
+  m_Tag: UI CutScene
+  m_IsVariant: 0

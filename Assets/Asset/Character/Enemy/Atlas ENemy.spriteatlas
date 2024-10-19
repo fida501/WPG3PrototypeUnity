@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas ENemy
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 16384
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -2349478026208279328, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -360824740678818531, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -9263814043847981, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -3932269117604807313, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -2797790951695312549, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -309613434421567904, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: 8394123396958398655, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -8328923581568760697, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -1539746181660642025, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -8234552349763867726, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: 1089177164981134823, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -2053538016247947762, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: 360699657260877627, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -6042116523102711137, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -5210146011573704161, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: 2103034820938792844, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -7077216927322608677, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -4252194710976828972, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: 667692274180312787, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    - {fileID: -1665396679748891242, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -9263814043847981
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -1539746181660642025
+    - a3a76a8e60b172b4e8c66dfdbd15c321: 667692274180312787
+    - a3a76a8e60b172b4e8c66dfdbd15c321: 360699657260877627
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -3932269117604807313
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -2349478026208279328
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -309613434421567904
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -2797790951695312549
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -5210146011573704161
+    - a3a76a8e60b172b4e8c66dfdbd15c321: 8394123396958398655
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -360824740678818531
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -6042116523102711137
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -8234552349763867726
+    - a3a76a8e60b172b4e8c66dfdbd15c321: 2103034820938792844
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -4252194710976828972
+    - a3a76a8e60b172b4e8c66dfdbd15c321: 1089177164981134823
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -1665396679748891242
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -2053538016247947762
+    - a3a76a8e60b172b4e8c66dfdbd15c321: -7077216927322608677
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -9263814043847981, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -1539746181660642025, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: 667692274180312787, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: 360699657260877627, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -3932269117604807313, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -2349478026208279328, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -309613434421567904, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -2797790951695312549, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -5210146011573704161, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: 8394123396958398655, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -360824740678818531, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -6042116523102711137, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -8234552349763867726, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: 2103034820938792844, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -4252194710976828972, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: 1089177164981134823, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -1665396679748891242, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -2053538016247947762, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  - {fileID: -7077216927322608677, guid: a3a76a8e60b172b4e8c66dfdbd15c321, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Armor
+  - Fore arm
+  - Shoulders
+  - Kepala
+  - Bicep Tricep
+  - 2. badan
+  - Driji
+  - Bicep Tricep kanan
+  - Pupu
+  - Drijikanan
+  - 5. Pinggul
+  - Paha kanan
+  - fore arm kanan
+  - Sayap
+  - Shoulder kanan
+  - Hand
+  - topi
+  - hand kanan
+  - Sayap kanan
+  m_RenderDataMap: {}
+  m_Tag: Atlas ENemy
+  m_IsVariant: 0

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFX Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 16384
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 457203c5817730a4790d6f22653d8365, type: 3}
+    - {fileID: 102900000, guid: ffa4405f6a8a6ad469718e701fc25eac, type: 3}
+    - {fileID: 102900000, guid: b5258e5807973884ea5a826add0b1dcb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 73128e604c8fc9343a78e6413ac7ae32: 1498063539
+    - 73128e604c8fc9343a78e6413ac7ae32: -967018081
+    - 73128e604c8fc9343a78e6413ac7ae32: -1023055836
+    - 73128e604c8fc9343a78e6413ac7ae32: -1604336706
+    - 73128e604c8fc9343a78e6413ac7ae32: 1848150242
+    - 93a15cd6bc85b5d4995af45e34057de4: -1708403263
+    - 93a15cd6bc85b5d4995af45e34057de4: 158497543
+    - 93a15cd6bc85b5d4995af45e34057de4: 280930854
+    - 93a15cd6bc85b5d4995af45e34057de4: 357912884
+    - 93a15cd6bc85b5d4995af45e34057de4: 2092482571
+    - 93a15cd6bc85b5d4995af45e34057de4: -470062306
+    - b06c750d298d2ec4c86b32de609fc7b1: 558309688
+    - b06c750d298d2ec4c86b32de609fc7b1: -388142277
+    - b06c750d298d2ec4c86b32de609fc7b1: -73918985
+    - b06c750d298d2ec4c86b32de609fc7b1: 1493012217
+    - b06c750d298d2ec4c86b32de609fc7b1: 2018339606
+    - b06c750d298d2ec4c86b32de609fc7b1: 2021332866
+    - b06c750d298d2ec4c86b32de609fc7b1: -1879644903
+    - b06c750d298d2ec4c86b32de609fc7b1: 243415705
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1498063539, guid: 73128e604c8fc9343a78e6413ac7ae32, type: 3}
+  - {fileID: -967018081, guid: 73128e604c8fc9343a78e6413ac7ae32, type: 3}
+  - {fileID: -1023055836, guid: 73128e604c8fc9343a78e6413ac7ae32, type: 3}
+  - {fileID: -1604336706, guid: 73128e604c8fc9343a78e6413ac7ae32, type: 3}
+  - {fileID: 1848150242, guid: 73128e604c8fc9343a78e6413ac7ae32, type: 3}
+  - {fileID: -1708403263, guid: 93a15cd6bc85b5d4995af45e34057de4, type: 3}
+  - {fileID: 158497543, guid: 93a15cd6bc85b5d4995af45e34057de4, type: 3}
+  - {fileID: 280930854, guid: 93a15cd6bc85b5d4995af45e34057de4, type: 3}
+  - {fileID: 357912884, guid: 93a15cd6bc85b5d4995af45e34057de4, type: 3}
+  - {fileID: 2092482571, guid: 93a15cd6bc85b5d4995af45e34057de4, type: 3}
+  - {fileID: -470062306, guid: 93a15cd6bc85b5d4995af45e34057de4, type: 3}
+  - {fileID: 558309688, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: -388142277, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: -73918985, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: 1493012217, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: 2018339606, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: 2021332866, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: -1879644903, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  - {fileID: 243415705, guid: b06c750d298d2ec4c86b32de609fc7b1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Efek tembakan-Recovered-Sheet_0
+  - Efek tembakan-Recovered-Sheet_1
+  - Efek tembakan-Recovered-Sheet_2
+  - Efek tembakan-Recovered-Sheet_3
+  - Efek tembakan-Recovered-Sheet_4
+  - Efek cipratan darah-Sheet_3
+  - Efek cipratan darah-Sheet_2
+  - Efek cipratan darah-Sheet_1
+  - Efek cipratan darah-Sheet_0
+  - Efek cipratan darah-Sheet_5
+  - Efek cipratan darah-Sheet_4
+  - animasi meledak-Sheet_3
+  - animasi meledak-Sheet_2
+  - animasi meledak-Sheet_1
+  - animasi meledak-Sheet_0
+  - animasi meledak-Sheet_7
+  - animasi meledak-Sheet_6
+  - animasi meledak-Sheet_5
+  - animasi meledak-Sheet_4
+  m_RenderDataMap: {}
+  m_Tag: VFX Atlas
+  m_IsVariant: 0

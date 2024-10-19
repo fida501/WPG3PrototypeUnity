@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Win Lose
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 16384
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c0fd82526b6dd304facaca10108e4506, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d2e35250b7d1be64b8475a6a9d6a1c50: 21300000
+    - fbd72fa0372d4a249ab1788002ef06a3: 21300000
+    - 85635571e551e8c4388ff09f6472b610: 21300000
+    - 85c9c5722bf98d146aaf7d7709f47007: 21300000
+    - 82904503f9352fd4ba1674bf21825d93: 21300000
+    - 617bbbd37eb503646a203c4de6319471: 21300000
+    - 5bcffc4505876e24a8cc508436d0ba7d: 21300000
+    - b2415155fa7124c4a9cf4bfb7faac629: 21300000
+    - 831c2965693be594c8c6b6e637c0ba75: 21300000
+    - 9edc9f57c92d0df4f9557bfa6d49462d: 21300000
+    - 9d394108baaf628488dd9175f20acf6a: 21300000
+    - 87231b8974ad32d42a70104e51463cfd: 21300000
+    - 5bdbda4aeee85b94d9da0c7efda0c9fd: 21300000
+    - 92263c7bae1f966429f14ccba411a57b: 21300000
+    - 3354a72c8a8df7a48a322602ec287f81: 21300000
+    - e3292c9c8c070954ebbaae67cb4a4b75: 21300000
+    - baa759ecf8f383543bd5cf5000bbc752: 21300000
+    - 94cb344d062275b459f28b609ce348c2: 21300000
+    - aea67b5d71f0e544bb7f6b10a174781a: 21300000
+    - 5425c6dde27c9124f85cea118c3e88cf: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d2e35250b7d1be64b8475a6a9d6a1c50, type: 3}
+  - {fileID: 21300000, guid: fbd72fa0372d4a249ab1788002ef06a3, type: 3}
+  - {fileID: 21300000, guid: 85635571e551e8c4388ff09f6472b610, type: 3}
+  - {fileID: 21300000, guid: 85c9c5722bf98d146aaf7d7709f47007, type: 3}
+  - {fileID: 21300000, guid: 82904503f9352fd4ba1674bf21825d93, type: 3}
+  - {fileID: 21300000, guid: 617bbbd37eb503646a203c4de6319471, type: 3}
+  - {fileID: 21300000, guid: 5bcffc4505876e24a8cc508436d0ba7d, type: 3}
+  - {fileID: 21300000, guid: b2415155fa7124c4a9cf4bfb7faac629, type: 3}
+  - {fileID: 21300000, guid: 831c2965693be594c8c6b6e637c0ba75, type: 3}
+  - {fileID: 21300000, guid: 9edc9f57c92d0df4f9557bfa6d49462d, type: 3}
+  - {fileID: 21300000, guid: 9d394108baaf628488dd9175f20acf6a, type: 3}
+  - {fileID: 21300000, guid: 87231b8974ad32d42a70104e51463cfd, type: 3}
+  - {fileID: 21300000, guid: 5bdbda4aeee85b94d9da0c7efda0c9fd, type: 3}
+  - {fileID: 21300000, guid: 92263c7bae1f966429f14ccba411a57b, type: 3}
+  - {fileID: 21300000, guid: 3354a72c8a8df7a48a322602ec287f81, type: 3}
+  - {fileID: 21300000, guid: e3292c9c8c070954ebbaae67cb4a4b75, type: 3}
+  - {fileID: 21300000, guid: baa759ecf8f383543bd5cf5000bbc752, type: 3}
+  - {fileID: 21300000, guid: 94cb344d062275b459f28b609ce348c2, type: 3}
+  - {fileID: 21300000, guid: aea67b5d71f0e544bb7f6b10a174781a, type: 3}
+  - {fileID: 21300000, guid: 5425c6dde27c9124f85cea118c3e88cf, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Line 3
+  - Rectangle 27
+  - win contition
+  - Component 5
+  - Mission Complete
+  - Rectangle 10
+  - Component 2
+  - Component 4
+  - Rectangle 27 (3)
+  - Component
+  - lose contition
+  - Star 3
+  - Component
+  - Property 1=Variant2
+  - MISSION FAILED
+  - Line 2
+  - task 1
+  - Line 4
+  - Component 3
+  - Rectangle 9
+  m_RenderDataMap: {}
+  m_Tag: UI Win Lose
+  m_IsVariant: 0
